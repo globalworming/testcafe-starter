@@ -1,8 +1,12 @@
 {
   "scripts": {
-    "test": "testcafe chrome"
+    "test": "testcafe chrome",
+    "test-api": "testcafe chrome tests-api"
   },
   "devDependencies": {
     "testcafe": "^3.0.1"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
   }
 }
